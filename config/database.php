@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$dbname = "mylibrary";
+$dbname = "myperpus";
 $username = "root";
-$password = "";
+$password = "akutampan";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
